@@ -13,13 +13,13 @@ class Student < Person
   end
 end
 
-student1 = Student.new(1, 15, name: 'Abutalha', parent_permission: false, classroom: 'Computer')
-student2 = Student.new(2, 17, name: 'Rex', classroom: 'Physics')
+student1 = Student.new(1, 17, name: 'Abutalha', parent_permission: false, classroom: 'Computer')
+student2 = Student.new(2, 16, name: 'Rex', classroom: 'Physics')
 
 puts student1.name # Abutalha
 puts student1.classroom # Computer
 puts student1.can_use_services? # false
 
-puts student2.age # 17
+puts student2.age # 16
 puts student2.classroom # Physics
 puts student2.can_use_services? # true

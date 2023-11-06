@@ -20,9 +20,9 @@ class Person
   end
 end
 
-person1 = Person.new(1, 15, name: 'Abutalha', parent_permission: false)
-person2 = Person.new(2, 17, name: 'Rex')
-person3 = Person.new(3, 40, name: 'Unknown', parent_permission: true)
+person1 = Person.new(1, 17, name: 'Abutalha', parent_permission: false)
+person2 = Person.new(2, 16, name: 'Rex')
+person3 = Person.new(3, 35, name: 'Unknown', parent_permission: true)
 
 puts person1.can_use_services? # false
 puts person2.can_use_services? # true
